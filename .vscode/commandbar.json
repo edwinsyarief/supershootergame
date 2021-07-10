@@ -1,0 +1,15 @@
+{
+	"skipTerminateQuickPick": true,
+	"skipSwitchToOutput": false,
+	"skipErrorMessage": true,
+	"commands": [
+		{
+			"text": "📦 Build",
+			"color": "lightgreen",
+			"command": "go build ./cmd/main.go ./cmd/config.go",
+			"alignment": "right",
+			"skipTerminateQuickPick": false,
+			"priority": -50
+		}
+	]
+}

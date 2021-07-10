@@ -1,0 +1,33 @@
+{
+
+    "files.exclude": {
+        "scenes": true, // hide everything except what begins with D or N
+        "components": true, // hide the files in the root of the repo
+    },
+    "[go]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.codeActionsOnSave": {
+			"source.sortImports": true,
+			"source.organizeImports": true
+		}
+	},
+    "go.editorContextMenuCommands": {
+        "toggleTestFile": true,
+        "addTags": false,
+        "removeTags": false,
+        "fillStruct": false,
+        "testAtCursor": true,
+        "testFile": false,
+        "testPackage": false,
+        "generateTestForFunction": true,
+        "generateTestForFile": false,
+        "generateTestForPackage": false,
+        "addImport": true,
+        "testCoverage": true,
+        "playground": true,
+        "debugTestAtCursor": true,
+        "benchmarkAtCursor": false
+    },
+    "go.useLanguageServer": true
+}
